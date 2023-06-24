@@ -48,8 +48,8 @@ Tarea Academica Servicios Rest PUCP
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre el Proyecto
+[Live Demo]
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Este proyecto tiene la finalidad de mostrar la funcionalidad de microservicios usando python y Django Rest Framework
 
@@ -182,3 +182,4 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 [DjangoRestFramework]: https://www.django-rest-framework.org/
 [Entornos virtuales]: https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python/
 [implementacion django]:https://www.bezkoder.com/django-rest-api/
+[Live Demo]:http://tareaacademica.geekysac.com/
