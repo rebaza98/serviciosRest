@@ -39,6 +39,7 @@ Tarea Academica Servicios Rest PUCP
       </ul>
     </li>
     <li><a href="#Uso">Uso</a></li>
+    <li><a href="#Ejemplo">Ejemplo</a></li>
     
   </ol>
 </details>
@@ -107,7 +108,7 @@ Instalar Django Rest Framework
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Se puede usar cualquier cliente para el consumo de endpoints, como postman o insomnia
+Se puede usar cualquier cliente para el consumo de endpoints, como postman o insomnia, para mayor referencia de consumo con Django ver [implementacion django]
 Para consultas GET utilizar:
 
 ```sh
@@ -144,7 +145,7 @@ Para consultas DELETE utilizar:
 Con este endpoint se puede consumir el servicio para eliminar un cliente con el {id} , utilizar el methodo DELETE en la peticion o request
 
 
-##EJEMPLO
+## EJEMPLO
 
 endpoint POST creacion de un cliente:
 ```sh
@@ -180,3 +181,4 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 [Django]: https://www.djangoproject.com/
 [DjangoRestFramework]: https://www.django-rest-framework.org/
 [Entornos virtuales]: https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python/
+[implementacion django]:https://www.bezkoder.com/django-rest-api/
