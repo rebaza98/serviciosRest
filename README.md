@@ -109,6 +109,7 @@ Instalar Django Rest Framework
 ## Uso
 
 Se puede usar cualquier cliente para el consumo de endpoints, como postman o insomnia, para mayor referencia de consumo con Django ver [implementacion django]
+
 Para consultas GET utilizar:
 
 ```sh
@@ -145,7 +146,7 @@ Para consultas DELETE utilizar:
 Con este endpoint se puede consumir el servicio para eliminar un cliente con el {id} , utilizar el methodo DELETE en la peticion o request
 
 
-## EJEMPLO
+## Ejemplo
 
 endpoint POST creacion de un cliente:
 ```sh
