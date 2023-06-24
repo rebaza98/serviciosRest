@@ -154,7 +154,7 @@ endpoint POST creacion de un cliente:
 ```
 body en formato JSON:
 ```sh
-   {
+   	{
 		"id": 3,
 		"nombre": "Jon",
 		"apellido_paterno": "Snow",
