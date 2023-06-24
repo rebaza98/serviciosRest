@@ -1,0 +1,52 @@
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            {% if cliente %}
+            <h4 class="modal-title" id="myModalLabel1">Editar Cliente</h4>
+            {% else %}
+            <h4 class="modal-title" id="myModalLabel1">Nuevo Cliente</h4>
+            {% endif %}
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form method="post" class="form form-vertical" action="{{action}}" >
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="first-name-vertical">Nombre</label>
+                            <input type="text" id="first-name-vertical" class="form-control" name="nombre" required placeholder="Nombre" value="{{cliente.nombre}}" autocomplete="off" />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="apellidoPaterno-id-vertical">Apellido Paterno</label>
+                            <input type="text" id="apellidoPaterno-id-vertical" class="form-control" name="apellidoPaterno" required placeholder="Apellido Paterno" value="{{cliente.apellido_paterno}}" autocomplete="off" />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="apellidoMaterno-id-vertical">Apellido Materno</label>
+                            <input type="text" id="apellidoMaterno-id-vertical" class="form-control" name="apellidoMaterno" required placeholder="Apellido Materno" value="{{cliente.apellido_materno}}" autocomplete="off" />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="contact-info-vertical">DNI</label>
+                            <input type="number" id="dni-info-vertical" class="form-control" name="dni" required placeholder="DNI" value="{{cliente.dni}}" autocomplete="off" />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary mr-1">Grabar</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-outline-secondary">Cancelar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-primary" data-dismiss="modal">Accept</button> -->
+        </div>
+    </div>
+</div>

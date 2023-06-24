@@ -1,0 +1,86 @@
+{% extends 'base.html' %} {% load static %}
+
+
+{% block content %}
+
+<div class="app-content content ">
+    <div class="content-overlay"></div>
+    <div class="header-navbar-shadow"></div>
+    <div class="content-wrapper">
+        <div class="content-header row">
+            <div class="content-header-left col-md-9 col-12 mb-2">
+                <div class="row breadcrumbs-top">
+                    <div class="col-12">
+                        <h2 class="content-header-title float-left mb-0">Catalogo de Servicios</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="content-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="collapse-default">
+                        <div class="card">
+                            <div id="headingCollapse1" class="card-header" data-toggle="collapse" role="button" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                <span class="lead collapse-title"> Servicio Consulta GET </span>
+                            </div>
+                            <div id="collapse1" role="tabpanel" aria-labelledby="headingCollapse1" class="collapse">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Utilizar el endpoint con el metodo <strong>GET</strong>  <code>.../api/cliente</code> para obtener la lista de clientes
+                                    </p>
+                                    <p class="card-text">
+                                        Utilizar el endpoint con el metodo <strong>GET</strong>  <code>.../api/cliente/{id}</code> para obtener un cliente por {id}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="headingCollapse2" class="card-header collapse-header" data-toggle="collapse" role="button" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <span class="lead collapse-title"> Servicio Consulta POST</span>
+                            </div>
+                            <div id="collapse2" role="tabpanel" aria-labelledby="headingCollapse2" class="collapse" aria-expanded="false">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Utilizar el endpoint con el metodo <strong>POST</strong>  <code>.../api/cliente</code> para crear un cliente
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="headingCollapse3" class="card-header collapse-header" data-toggle="collapse" role="button" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <span class="lead collapse-title"> Servicio Consulta PUT </span>
+                            </div>
+                            <div id="collapse3" role="tabpanel" aria-labelledby="headingCollapse3" class="collapse" aria-expanded="false">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Utilizar el endpoint con el metodo <strong>PUT</strong>  <code>.../api/cliente/{id}</code> para actualizar el cliente con el {id}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="headingCollapse4" class="card-header" data-toggle="collapse" role="button" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <span class="lead collapse-title"> Servicio Consulta <span class="primary" >DELETE</span>  </span>
+                            </div>
+                            <div id="collapse4" role="tabpanel" aria-labelledby="headingCollapse4" class="collapse" aria-expanded="false">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Utilizar el endpoint con el metodo <strong>DELETE</strong>  <code>.../api/cliente/{id}</code> para eliminar el cliente con el {id}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+          
+
+        </div>
+    </div>
+</div>
+{% endblock %}
