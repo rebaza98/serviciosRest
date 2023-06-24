@@ -28,19 +28,13 @@ Tarea Academica Servicios Rest PUCP
 <br />
 <div align="center">
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Proyecto Tarea Academica</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="http://tareaacademica.geekysac.com/">View Demo</a>
+    
   </p>
 </div>
 
@@ -142,6 +136,54 @@ Para consultas GET utilizar:
 ```sh
    .../apis/cliente
 ```
+Con este endpoint se puede consumir el servicio de consultas que retorna  la lista de clientes , utilizar el methodo GET en la peticion o request
+
+Para consultas GET utilizar:
+
+```sh
+   .../apis/cliente/{id}
+```
+Con este endpoint se puede consumir el servicio de consultas que retorna  un clientes con el {id} , utilizar el methodo GET en la peticion o request
+
+Para consultas POST utilizar:
+
+```sh
+   .../apis/cliente/
+```
+Con este endpoint se puede consumir el servicio de crear un cliente , utilizar el methodo POST en la peticion o request
+
+Para consultas PUT utilizar:
+
+```sh
+   .../apis/cliente/{id}
+```
+Con este endpoint se puede consumir el servicio para actualizar un cliente con el {id} , utilizar el methodo PUT en la peticion o request
+
+Para consultas DELETE utilizar:
+
+```sh
+   .../apis/cliente/{id}
+```
+Con este endpoint se puede consumir el servicio para eliminar un cliente con el {id} , utilizar el methodo DELETE en la peticion o request
+
+
+##EJEMPLO
+
+endpoint POST creacion de un cliente:
+```sh
+   http://localhost:8000/apis/cliente
+```
+body en formato JSON:
+```sh
+   {
+		"id": 3,
+		"nombre": "Jon",
+		"apellido_paterno": "Snow",
+		"apellido_materno": "eSnoe2",
+		"dni": "313123123123"
+	}
+```
+
 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
