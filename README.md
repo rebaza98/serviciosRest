@@ -104,15 +104,18 @@ En esta seccion se lista los  frameworks/libraries usadas en el proyecto. .
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+Para utilizar seguir los siguientes pasos
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Instalar Django (Se asume que python y pip ya se encuentran instalados en su maquina, se recomienda usar [Entornos virtuales ])
+* Instalando Django
   ```sh
-  npm install npm@latest -g
+  pip install django
+  ```
+Instalar Django Rest Framework 
+* Instalando DRF
+  ```sh
+  pip install djangorestframefork
   ```
 
 ### Installation
@@ -226,3 +229,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 [Django]: https://www.djangoproject.com/
 [DjangoRestFramework]: https://www.django-rest-framework.org/
+[Entornos virtuales]: https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python/
