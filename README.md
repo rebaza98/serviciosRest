@@ -21,14 +21,7 @@ Tarea Academica Servicios Rest PUCP
 
   <h3 align="center">Best-README-Template</h3>
 
-  <p align="center">
-  
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+ 
 </div>
 
 
