@@ -134,9 +134,15 @@ Instalar Django Rest Framework
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Se puede usar cualquier cliente para el consumo de endpoints, como postman o insomnia
+Para consultas GET utilizar:
+
+```sh
+   .../apis/cliente
+```
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
