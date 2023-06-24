@@ -19,7 +19,7 @@ Tarea Academica Servicios Rest PUCP
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">TAREA ACADEMICA</h3>
 
  
 </div>
@@ -32,9 +32,9 @@ Tarea Academica Servicios Rest PUCP
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Sobre-el-Proyecto">Sobre El proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Creado-con">Creado con</a></li>
       </ul>
     </li>
     <li>
